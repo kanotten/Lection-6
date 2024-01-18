@@ -1,0 +1,73 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    margin: 0;
+    background-color: #ebebeb;
+    font-family: Monaco, serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #BADA55;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-grow: 1; /* Ensure nav takes up available space */
+}
+
+nav a {
+    padding: 1rem 1.5rem; /* Adjust padding for better spacing */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #8fb4e5; /* Add a hover effect */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Main Content Styles */
+h1 {
+    font-size: 1.5rem;
+}
+
+/* Products Container Styles */
+.products-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+/* Product Styles */
+.product {
+    background-color: rgb(67, 67, 230);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Active Heart Styles */
+.active-heart {
+    fill: red;
+    stroke: black;
+}
